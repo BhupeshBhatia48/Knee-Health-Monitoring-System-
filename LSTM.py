@@ -28,7 +28,7 @@ from tensorflow.keras import layers, models, callbacks, Input, Model
 # -----------------------
 # Config
 # -----------------------
-CSV_PATH = r"D:\knee health\new_my_custom_dataset\new_encoded_dataset.csv"  
+CSV_PATH = r"your_dataset_directory"  
 SEQ_LEN = 120
 
 # Time-series feature columns (pipe-separated strings)
@@ -421,4 +421,5 @@ if __name__ == "__main__":
         sys.stdout = codecs.getwriter('utf-8')(sys.stdout.buffer, 'strict')
         sys.stderr = codecs.getwriter('utf-8')(sys.stderr.buffer, 'strict')
     
+
     main()
